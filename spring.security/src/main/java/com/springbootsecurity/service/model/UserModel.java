@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserModel {
-    /*
-    This class is to get data from user
+    /**
+     * This class is to get data from user
      */
     private String firstName;
     private String lastName;

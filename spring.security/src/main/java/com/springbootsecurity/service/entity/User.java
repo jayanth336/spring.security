@@ -11,8 +11,8 @@ import javax.persistence.Id;
 @Entity
 @Data
 public class User {
-    /*
-    This class is to store data in database
+    /**
+     * This class is to store data in database
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,5 +25,5 @@ public class User {
     private String password;
 
     private String role;
-    private boolean enabled = true;
+    private boolean enabled = false;
 }
